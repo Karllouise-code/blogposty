@@ -8,7 +8,6 @@ class DashboardController extends Controller
 {
     protected function index()
     {
-        dd(auth()->user());
         return view('dashboard');
     }
 }

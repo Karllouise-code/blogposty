@@ -72,8 +72,10 @@
                         class="bg-gray-100 border-2 w-full p-4 rounded-lg" value="">
                 </div>
 
-                <button type="submit" class="bg-blue-500 text-white px-4 py-3 rounded font-medium w-full">Register</button>
-
+                <div>
+                    <button type="submit"
+                        class="bg-blue-500 text-white px-4 py-3 rounded font-medium w-full">Register</button>
+                </div>
             </form>
         </div>
     </div>
