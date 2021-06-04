@@ -1,0 +1,23 @@
+[33mcommit ac60ee9ada813db020c446acc37a6a40fd62edc0[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Karl <karllouiserito08@gmail.com>
+Date:   Thu Jun 3 23:21:58 2021 +0800
+
+    middleware function done
+
+[33mcommit fb9303a8b5abe9305c037272edf8686222ec2d97[m
+Author: Karl <karllouiserito08@gmail.com>
+Date:   Wed Jun 2 14:42:45 2021 +0800
+
+    logout function done
+
+[33mcommit 21b90fe546dbe6db2e3dc6e112544885b491ebdd[m
+Author: Karl <karllouiserito08@gmail.com>
+Date:   Wed Jun 2 14:02:59 2021 +0800
+
+    registering users done
+
+[33mcommit eb2fd0e54d2ad341f520a3fedce16b720fbab7cd[m
+Author: Karl <karllouiserito08@gmail.com>
+Date:   Tue Jun 1 15:45:18 2021 +0800
+
+    blog post layout done
