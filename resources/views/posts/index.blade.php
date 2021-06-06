@@ -33,13 +33,15 @@
                         <p class="mb-2">{{ $post->body }}</p>
 
                         {{-- DELETE --}}
-                        <div>
+
+                        @can('delete', $post)
                             <form action="{{ route('posts.destroy', $post) }}" method="POST">
                                 @csrf
                                 @method('DELETE')
                                 <button type="submit" class="text-blue-500">Delete</button>
                             </form>
-                        </div>
+                        @endcan
+
 
                         {{-- LIKE/UNLIKE --}}
                         <div class="flex items-center">
