@@ -16,10 +16,6 @@ class DashboardController extends Controller
 
     protected function index()
     {
-        $user = auth()->user();
-
-        Mail::to($user)->send(new PostLiked());
-
         return view('dashboard');
     }
 }

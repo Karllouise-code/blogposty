@@ -28,24 +28,24 @@
         <ul class="flex items-center">
             {{-- IF SIGNED IN --}}
             @auth
-                <li>
-                    <a href="" class="p-3">{{ auth()->user()->name }}</a>
-                </li>
-                <li>
-                    <form action="{{ route('logout') }}" method="POST" class="p-3 inline">
-                        @csrf
-                        <button type="submit">Logout</button>
-                    </form>
-                </li>
+            <li>
+                <a href="" class="p-3">{{ auth()->user()->name }}</a>
+            </li>
+            <li>
+                <form action="{{ route('logout') }}" method="POST" class="p-3 inline">
+                    @csrf
+                    <button type="submit">Logout</button>
+                </form>
+            </li>
             @endauth
             {{-- IF NOT SIGNED IN --}}
             @guest
-                <li>
-                    <a href="{{ route('login') }}" class="p-3">Login</a>
-                </li>
-                <li>
-                    <a href="{{ route('register') }}" class="p-3">Register</a>
-                </li>
+            <li>
+                <a href="{{ route('login') }}" class="p-3">Login</a>
+            </li>
+            <li>
+                <a href="{{ route('register') }}" class="p-3">Register</a>
+            </li>
             @endguest
 
 
